@@ -321,4 +321,10 @@ footer  p{
     .purpose{
         text-align: center;
     }
+    .video-container{
+        flex-direction: column;
+    }
+    .title{
+        margin-bottom: 80px;
+    }
 }
