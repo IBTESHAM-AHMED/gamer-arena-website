@@ -332,4 +332,11 @@ footer  p{
     .title{
         margin-bottom: 80px;
     }
+    .instant{
+        flex-direction: column;
+        padding:  0;
+        text-align: center;
+    }
+    .instant-content{text-align: center;
+    margin-bottom: 20px;}
 }
