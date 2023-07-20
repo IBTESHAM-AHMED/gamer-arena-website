@@ -38,7 +38,6 @@
 .primary-txt{
     color: #534C64;
 font-size: 1.125rem;
-font-style: normal;
 font-weight: 400;
 }
 .pink-txt{
@@ -161,6 +160,10 @@ font-weight: 500;
     font-size: 2rem;
 }
 /* funny videos */
+.title{
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
 .funny-video{
     text-align: center;
 }
@@ -170,6 +173,30 @@ font-size: 48px;
 font-weight: 700;
 
 }
+.video-container{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+
+/* instant section */
+.instant{
+    display: flex;
+    padding: 0 240px;
+    
+    justify-content: space-between;
+}
+.instant-content{
+text-align: end;
+margin-top: 100px;
+
+}
+.img-badge{
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+}
+
 /* small devices */
 @media screen and (max-width: 960px) {
 
